@@ -9,22 +9,24 @@
     <script src="js/bootstrap.min.js"></script>
   </head>
   <body>
-    <article>
-      <h1>Testing Bootstrap</h1>
-      <p>Verifying bootstrap functionality</p>
-    </article>
-    <button type="button" class="btn btn-success">Button</button>
-
+    <style>
+      .row {
+        background-color: orange;
+        border: 3px solid rgb(110, 73, 5);
+        margin: 10px;
+        padding: 5px;
+      }
+    </style>
     <div class="container">
       <div class="row">
-        <section class="col-sm-5">Column</section>
-        <section class="col-sm-2">Column</section>
-        <section class="col-sm-5">Column</section>
+        <div class="col">Columna 1</div>
+        <div class="col">Columna 1</div>
       </div>
-      <br>
-    </div>
-    <div class="container-fluid">
-      .container-fluid 
+      <div class="row">
+        <div class="col">Columna 2</div>
+        <div class="col">Columna 2</div>
+        <div class="col">Columna 2</div>
+      </div>
     </div>
   </body>
 </html>
